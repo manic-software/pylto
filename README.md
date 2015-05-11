@@ -2,3 +2,9 @@
 pylto is a python script which generates a pdf of LTO tape labels for printing onto Avery label sheet 6577
 
 It's a simple command line program, but it's saved me a bunch of money on professionally generated tape labels; so I thought others might find it useful.
+
+As input it accepts a numerical range such as 1-20 or 1 2 3 4 5, or 1-20 22 23 25.
+Also you can specify the tape generation using -g N.  1 for LTO1, 2 for LTO2 etc etc.
+In case you want to finish off a partially used label sheet, use -o N where N is the number of labels you want to skip.
+
+For example to generate labels numbered 1001-1020 for LTO4 tapes:   pylto -g4 1001-1020 > filename.pdf
