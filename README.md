@@ -10,7 +10,7 @@ Usage: pylto [options] numbers (e.g. 1-5,6,7,8 9-12)
 Run without options to launch UI (you'll need the pyqt4 libraries)
 
 Options:
--h, --help            show this help message and exit
+  -h, --help            show this help message and exit
   -g GENERATION, --generation=GENERATION
                         tape generation (defaults to 4)
   -o OFFSET, --offset=OFFSET
