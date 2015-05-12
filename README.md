@@ -16,6 +16,9 @@ Options:
   -o OFFSET, --offset=OFFSET
                         skip the first 'offset' labels
 ```
+
+If you have pyqt4 installed and you run without any command line options, you'll get a simple gui.
+
 As input it accepts a numerical range such as 1-20 or 1 2 3 4 5, or 1-20 22 23 25.
 Also you can specify the tape generation using -g N.  1 for LTO1, 2 for LTO2 etc etc.
 In case you want to finish off a partially used label sheet, use -o N where N is the number of labels you want to skip.
