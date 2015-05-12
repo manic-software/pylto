@@ -46,7 +46,9 @@ def makelabels(stream, gen, labels, off):
     
     cols="red", "yellow", "lightgreen", "lightblue", "grey", "orange", "hotpink", "darkgreen", "darkorange", "purple"
 
-    can.setFont("Helvetica", 12)
+    can.setFont("Helvetica", 10)
+    can.setFillColor("black")
+    can.drawString(125, height-15, "Print at 100% scale onto Avery labels 6577 using a good quality printer")
     can.setFillColor("blue")
     can.drawString(165, height-30, "Generated using PyLTO from MaNic Software")
     can.linkURL("http://www.manicsoftware.co.uk", (150, height-40, width-150, height-10))
