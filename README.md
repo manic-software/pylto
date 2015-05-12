@@ -1,6 +1,8 @@
 # pylto
 pylto is a python script which generates a pdf of LTO tape labels for printing onto Avery label sheet 6577
 
+A free on-line generator which uses pylto as the back-end is available at [MaNic Software](http://www.manicsoftware.co.uk/pylto).
+
 It's a simple program, but it's saved me a bunch of money on professionally generated tape labels; so I thought others might find it useful.
 
 It depends on reportlib for the pdf generation.
