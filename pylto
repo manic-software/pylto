@@ -46,6 +46,11 @@ def makelabels(stream, gen, labels, off):
     
     cols="red", "yellow", "lightgreen", "lightblue", "grey", "orange", "hotpink", "darkgreen", "darkorange", "purple"
 
+    can.setFont("Helvetica", 12)
+    can.setFillColor("blue")
+    can.drawString(165, height-30, "Generated using PyLTO from MaNic Software")
+    can.linkURL("http://www.manicsoftware.co.uk", (150, height-40, width-150, height-10))
+    can.setFillColor("black")
     for i in range(len(labels)):
         n=i+off
         h=(n%2)*(LABEL_WIDTH+HORIZ_SPACING)+LEFT_OFFSET
